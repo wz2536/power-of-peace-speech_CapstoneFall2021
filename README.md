@@ -42,3 +42,6 @@ Zimbabwe | Sweden |
 Each .json file contains the data related to one article. There are ~57M articles in lowPeace and ~33M articles (.json files) in highPeace.
 
 ### Files and Folder
+
+- **Reports** contains our progress reports and final presentation slides of the projects. (Still updating)
+- **Sample Data Exploration** contains the works we done in progress report 1; construct theoretical approach to the problem based on the sample dataset

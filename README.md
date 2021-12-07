@@ -48,4 +48,5 @@ To reduce the waiting time of loading data multiple times in to notebook memory,
 - **Sample Data Exploration** contains the works we done in progress report 1; construct theoretical approach to the problem based on the sample dataset
 - **Data EDA** contains the processes of reading in all seperate .json files, compressing them into large .csv files, uploading the files to S3, and performing EDA.
 - **Preprocess** contains the codes for preprocessing the .csv stored in S3 from **Data EDA** step, performing train/test split, and storing the result back to S3 as .csv and .json format.
-- **Classification Models** contains all files related to model training
+- **Classification Models** contains all files related to model training experiments and model performance evaluation
+

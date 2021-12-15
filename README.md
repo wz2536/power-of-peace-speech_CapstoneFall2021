@@ -44,7 +44,7 @@ Each .json file contains the data related to one article. There are ~57M article
 ### Files and Folder
 To reduce the waiting time of loading data multiple times in to notebook memory, we combine some tasks that are closely related to a step in one notebook and perform these tasks sequentially, instead of starting a new notebook for each task in all steps. The detailed content per notebook is described as below.
 
-- **Reports** contains our progress reports and final presentation slides of the projects. (Still updating)
+- **Reports** contains our progress reports and final presentation slides of the projects.
 - **Sample Data Exploration** contains the works we done in progress report 1; construct theoretical approach to the problem based on the sample dataset
 - **Data EDA** contains the processes of reading in all seperate .json files, compressing them into large .csv files, uploading the files to S3, and performing EDA.
 - **Preprocess** contains the codes for preprocessing the .csv stored in S3 from **Data EDA** step, performing train/test split, and storing the result back to S3 as .csv and .json format.
